@@ -11,10 +11,10 @@ const config: Config = {
     v4: true,
   },
 
-  // GitHub Pages or custom-domain canonical host.
-  url: 'https://gbd.github.io',
-  // Root deploy since this is configured for a root-domain host.
-  baseUrl: '/',
+  // GitHub project pages host.
+  url: 'https://nirnex-ai.github.io',
+  // Repository path under the GitHub Pages host.
+  baseUrl: '/gbd/',
   trailingSlash: false,
 
   organizationName: 'nirnex-ai',
@@ -82,7 +82,7 @@ const config: Config = {
       title: 'Gap Based Development',
       logo: {
         alt: 'Gap Based Development Logo',
-        src: 'img/logo.svg',
+        src: 'img/gbd-logo.svg',
       },
       items: [
         {
