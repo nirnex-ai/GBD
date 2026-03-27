@@ -61,6 +61,18 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    [
+      'docusaurus-plugin-papersaurus',
+      {
+        sidebarNames: ['tutorialSidebar'],
+        autoBuildPdfs: true,
+        addDownloadButton: true,
+        downloadButtonText: 'Download PDF',
+      },
+    ],
+  ],
+
   themes: [
     [
       '@easyops-cn/docusaurus-search-local',
