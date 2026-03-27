@@ -1,0 +1,31 @@
+.features {
+  width: 100%;
+  padding: 3rem 0 4rem;
+}
+
+.featureCard {
+  padding: 1.25rem;
+  border: 1px solid #eaeaea;
+  min-height: 100%;
+  background: #ffffff;
+  transition: border-color 160ms ease, transform 160ms ease;
+}
+
+.featureCard:hover {
+  border-color: #111111;
+  transform: translateY(-2px);
+}
+
+.category {
+  margin-bottom: 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #777777;
+}
+
+.description {
+  margin: 0;
+  color: #333333;
+}
