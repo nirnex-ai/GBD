@@ -83,6 +83,7 @@ const config: Config = {
       logo: {
         alt: 'Gap Based Development Logo',
         src: 'img/gbd-logo.svg',
+        srcDark: 'img/gbd-logo-dark.svg',
       },
       items: [
         {
