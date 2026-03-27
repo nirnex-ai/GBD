@@ -2,46 +2,31 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Gap-Based Development (GBD)
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Gap-Based Development (GBD) is a software delivery methodology for building from a Software Design Document (SDD) by turning unknowns, missing implementation, and architectural drift into a governed execution system.
 
-## Getting Started
+## Core Idea
 
-Get started by **creating a new site**.
+Instead of asking AI to "build the feature," GBD enforces a controlled implementation loop:
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+1. Read the SDD and architecture.
+2. Derive the expected system state.
+3. Compare expected state versus current codebase state.
+4. Convert the delta into explicit gaps.
+5. Execute one bounded gap at a time, or multiple non-conflicting gaps in parallel.
+6. Prove completion with tests and code-grounded evidence.
+7. Update the gap ledger.
 
-### What you'll need
+This makes AI act like a constrained implementation worker, not an improviser.
 
-- [Node.js](https://nodejs.org/en/download/) version 20.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Purpose
 
-## Generate a new site
+Use AI to develop software from design documents with minimal hallucination by grounding all work in:
 
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+- SDD
+- architecture and project docs
+- actual codebase
+- explicit gap ledger
+- tests
+- continuous update loop
