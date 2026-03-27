@@ -5,14 +5,14 @@
 
 .featureCard {
   padding: 1.25rem;
-  border: 1px solid #eaeaea;
+  border: 1px solid var(--site-border);
   min-height: 100%;
-  background: #ffffff;
+  background: var(--site-surface);
   transition: border-color 160ms ease, transform 160ms ease;
 }
 
 .featureCard:hover {
-  border-color: #111111;
+  border-color: var(--site-text);
   transform: translateY(-2px);
 }
 
@@ -22,10 +22,10 @@
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: #777777;
+  color: var(--site-meta);
 }
 
 .description {
   margin: 0;
-  color: #333333;
+  color: var(--site-text-soft);
 }
