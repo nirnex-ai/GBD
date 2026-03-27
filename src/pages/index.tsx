@@ -22,8 +22,8 @@ function HomepageHeader() {
           <Link className="button button--primary button--lg" to="/docs/intro">
             Explore Documentation
           </Link>
-          <Link className="button button--secondary button--lg" to="/blog">
-            Read Journal
+          <Link className="button button--secondary button--lg" to="/docs/methodology/lifecycle">
+            View Lifecycle
           </Link>
         </div>
       </div>
@@ -36,7 +36,7 @@ export default function Home(): ReactNode {
   return (
     <Layout
       title={`${siteConfig.title} Documentation`}
-      description="Gap Based Development docs, implementation notes, and architecture journal.">
+      description="Gap Based Development docs, implementation notes, and architecture methodology.">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

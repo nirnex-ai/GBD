@@ -91,7 +91,6 @@ const config: Config = {
           position: 'left',
           label: 'Docs',
         },
-        {to: '/blog', label: 'Journal', position: 'left'},
         {
           href: 'https://github.com/nirnex-ai/GBD',
           label: 'GitHub',
@@ -106,7 +105,6 @@ const config: Config = {
           title: 'Explore',
           items: [
             {label: 'Introduction', to: '/docs/intro'},
-            {label: 'Blog', to: '/blog'},
           ],
         },
         {
