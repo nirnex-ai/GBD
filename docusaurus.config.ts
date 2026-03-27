@@ -14,11 +14,11 @@ const config: Config = {
   // GitHub project pages host.
   url: 'https://nirnex-ai.github.io',
   // Repository path under the GitHub Pages host.
-  baseUrl: '/gbd/',
+  baseUrl: '/GBD/',
   trailingSlash: false,
 
   organizationName: 'nirnex-ai',
-  projectName: 'gbd',
+  projectName: 'GBD',
   deploymentBranch: 'main',
 
   onBrokenLinks: 'throw',
@@ -39,13 +39,13 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
-          editUrl: 'https://github.com/nirnex-ai/gbd/tree/main/',
+          editUrl: 'https://github.com/nirnex-ai/GBD/tree/main/',
         },
         blog: {
           showReadingTime: true,
           postsPerPage: 10,
           blogSidebarCount: 'ALL',
-          editUrl: 'https://github.com/nirnex-ai/gbd/tree/main/',
+          editUrl: 'https://github.com/nirnex-ai/GBD/tree/main/',
           feedOptions: {
             type: ['rss', 'atom'],
             xslt: true,
@@ -93,7 +93,7 @@ const config: Config = {
         },
         {to: '/blog', label: 'Journal', position: 'left'},
         {
-          href: 'https://github.com/nirnex-ai/gbd',
+          href: 'https://github.com/nirnex-ai/GBD',
           label: 'GitHub',
           position: 'right',
         },
@@ -112,7 +112,7 @@ const config: Config = {
         {
           title: 'Build',
           items: [
-            {label: 'GitHub', href: 'https://github.com/nirnex-ai/gbd'},
+            {label: 'GitHub', href: 'https://github.com/nirnex-ai/GBD'},
           ],
         },
       ],
